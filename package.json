@@ -1,0 +1,29 @@
+{
+  "name": "super-form",
+  "version": "1.0.0",
+  "description": "Super Form",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elbrus-Bootcamp/super-form.git"
+  },
+  "keywords": [],
+  "author": "Movsar Makhmutov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elbrus-Bootcamp/super-form/issues"
+  },
+  "homepage": "https://github.com/Elbrus-Bootcamp/super-form#readme",
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "prettier": "^2.8.6",
+    "stylelint": "^15.3.0",
+    "stylelint-prettier": "^3.0.0",
+    "stylelintrc-generator": "^1.0.0"
+  }
+}

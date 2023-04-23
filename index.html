@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link href="./css/index.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Braah+One&family=Chivo+Mono:ital,wght@0,400;0,500;1,200;1,400;1,500&display=swap"
+            rel="stylesheet"
+        />
+
+        <script defer src="index.js"></script>
+        <title>Elbrus Super Form</title>
+    </head>
+
+    <body>
+        <img src="./assests/back.jpg" alt="" class="back" />
+        <header>
+            <h1 class="mainHeading">Elbrus Super Form</h1>
+        </header>
+        <div class="container">
+            <main>
+                <div class="form">
+                    <form>
+                        <label for="name">Name</label>
+                        <input class="name" id="name" type="text" />
+
+                        <label for="secondName">Second name</label>
+                        <input class="secondName" id="secondName" type="text" />
+
+                        <label for="email">Email</label>
+                        <input class="email" id="email" type="email" />
+
+                        <label for="city">City of Birth</label>
+                        <input class="city" id="city" type="text" />
+
+                        <label for="age">Date of Birth</label>
+                        <input class="age" id="age" type="date" />
+
+                        <button class="btn add">Отправить</button>
+                    </form>
+                    <button class="btn clear">Очистить localStorage</button>
+                </div>
+
+                <div class="mainUsers">
+                    <h3>Users:</h3>
+                    <div class="users"></div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
